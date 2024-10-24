@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: center;
+}
+
+.container {
+  width: 50%;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.profile {
+  margin-bottom: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 5px solid blue;
+  width: 120px;
+  height: 120px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.6em; /* Sedikit perbesar heading */
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+p {
+  font-size: 1.1em; /* Sesuaikan font lebih besar */
+  color: #333;
+  margin: 5px 0;
+}
+
+.projects .project {
+  background-color: rgb(225, 225, 225);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project p {
+  margin: 5px 0 0;
+  color: #555;
+  font-size: 0.95em;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.about-me {
+  background-color: rgb(225, 225, 225);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-projects {
+  background-color: rgb(225, 225, 225);
+  color: #007bff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-projects div {
+  background-color: rgb(215, 215, 215);
+  margin: 10;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.185);
+  font-size: 0.8em;
+}
