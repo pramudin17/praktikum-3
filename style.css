@@ -73,8 +73,8 @@ p {
 .about-me {
   background-color: rgb(225, 225, 225);
   padding: 15px;
-  border-radius: 5px;
-  margin-bottom: 5px;
+  border-radius: 20px;
+  margin-bottom: 20px;
   text-align: left;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -83,7 +83,7 @@ p {
   background-color: rgb(225, 225, 225);
   color: #007bff;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-bottom: 5px;
   text-align: left;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -98,4 +98,6 @@ p {
   text-align: left;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.185);
   font-size: 0.8em;
+  border-left: 10px solid blue;
+  padding-left: 20px;
 }
